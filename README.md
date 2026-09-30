@@ -1,6 +1,6 @@
 # SocialPilot
 
-[![CI](https://github.com/daniellopez882/Social-Media-Autopilot-Agent-with-MCP/actions/workflows/ci.yml/badge.svg)](https://github.com/daniellopez882/Social-Media-Autopilot-Agent-with-MCP/actions/workflows/ci.yml)
+[![CI](https://github.com/daniellopez882/Social-Media-Autopilot-Agent/actions/workflows/ci.yml/badge.svg)](https://github.com/daniellopez882/Social-Media-Autopilot-Agent/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -15,7 +15,7 @@ API is FastAPI; the dashboard is one page served by the same process.
 |---|---|
 | **Does** | Route a task to the right agents, generate content (mock or model), hold it on a whole-word banned-topic match, queue it for approval, list/approve/reject through an authenticated API and a dashboard |
 | **Does not** | Talk to any social platform. All four platform tools return `status: "not_implemented"` outside mock mode. Nothing is fetched or posted anywhere |
-| **Is not** | An MCP server or client. There is no MCP code in this repository, despite its name |
+| **Is not** | An MCP server or client. The repository was named `Social-Media-Autopilot-Agent-with-MCP` and was renamed because it contains no MCP code |
 | **Tests** | 189 — none reach a network or need a credential |
 | **CI** | lint · tests on 3.11/3.12 · server booted and its contract exercised · bandit · container built, run, and checked |
 | **Container** | non-root (uid 10001), multi-stage, refuses an invalid configuration at startup |

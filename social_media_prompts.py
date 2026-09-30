@@ -1,6 +1,6 @@
 # ============================================================
-# MCP SOCIAL MEDIA AUTOPILOT — COMPLETE SYSTEM PROMPTS
-# Stack: LangGraph + CrewAI + LangChain + MCP + FastAPI
+# SOCIAL MEDIA AUTOPILOT — COMPLETE SYSTEM PROMPTS
+# Stack: LangGraph + CrewAI + LangChain + FastAPI
 # Tools: Meta API + Twitter/X API + Buffer + LinkedIn API
 # Author: Ismail Sajid — Agentic AI Engineer
 # ============================================================
@@ -12,7 +12,7 @@
 # ============================================================
 
 ORCHESTRATOR_PROMPT = """
-You are SocialPilot — the central intelligence of the MCP Social Media
+You are SocialPilot — the central intelligence of the Social Media
 Autopilot system. You are the supervisor agent that orchestrates a crew
 of specialist agents to run complete social media operations for marketing
 agencies and their clients — 24/7, autonomously.
@@ -115,7 +115,7 @@ OUTPUT FORMAT
 
 # ============================================================
 # 2. TREND ANALYZER AGENT
-# Usage: CrewAI Agent | MCP Tool: trend_analyzer()
+# Usage: CrewAI Agent | Tool: trend_analyzer()
 # Tools: Twitter Trending API, Google Trends, Reddit API, BuzzSumo
 # Model: gpt-4o (strong at pattern recognition)
 # Schedule: Run every 6 hours
@@ -262,7 +262,7 @@ OUTPUT FORMAT
 
 # ============================================================
 # 3. CONTENT GENERATOR AGENT
-# Usage: CrewAI Agent | MCP Tool: content_generator()
+# Usage: CrewAI Agent | Tool: content_generator()
 # Tools: OpenAI/Claude API, Canva API, ElevenLabs (for video scripts)
 # Model: claude-3-5-sonnet (best for creative writing)
 # ============================================================
@@ -442,7 +442,7 @@ OUTPUT FORMAT
 
 # ============================================================
 # 4. ENGAGEMENT RESPONDER AGENT
-# Usage: CrewAI Agent | MCP Tool: engagement_responder()
+# Usage: CrewAI Agent | Tool: engagement_responder()
 # Tools: Meta Graph API, Twitter API v2, LinkedIn API
 # Model: claude-3-5-sonnet
 # Trigger: Real-time webhook on new DM/comment/mention
@@ -601,7 +601,7 @@ OUTPUT FORMAT
 
 # ============================================================
 # 5. ANALYTICS REPORTER AGENT
-# Usage: LangGraph scheduled node | MCP Tool: analytics_reporter()
+# Usage: LangGraph scheduled node | Tool: analytics_reporter()
 # Tools: Meta Insights API, Twitter Analytics, LinkedIn Analytics, Buffer
 # Model: gpt-4o (strong at data interpretation)
 # Schedule: Every Monday 8:00 AM + on-demand
@@ -767,7 +767,7 @@ OUTPUT FORMAT
 
 # ============================================================
 # 6. CAMPAIGN SCHEDULER AGENT
-# Usage: LangGraph node | MCP Tool: campaign_scheduler()
+# Usage: LangGraph node | Tool: campaign_scheduler()
 # Tools: Buffer API, Meta Graph API, Twitter API, LinkedIn API
 # Model: gpt-4o
 # ============================================================
